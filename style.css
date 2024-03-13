@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Slackside+One&display=swap%27);
+
+
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.sol {
+    width: 50px;
+    height: 50px;
+    background-image: url(./Media/ufo.png);
+    background-size: cover;
+    transition: 1s;
+    filter: drop-shadow(3px 3px 5px #4444dd)
+}
+
+.sol:hover {
+    transform: rotateY(180deg);
+    filter: drop-shadow(30px 20px 5px #4444dd)
+}
+
+i {
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: -1px 1px 25px 1px rgba(255, 255, 255, 0.75);
+    z-index: 1;
+    color: #1a53ce;
+}
+
+.menyu :hover {
+    box-shadow: -1px 1px 25px 1px rgb(104, 61, 206);
+}
+
+.main {
+    width: 1220px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1656608138197-2aea23cc3564?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    padding: 20px 20px;
+    width: 100%;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Slackside One", cursive;
+    font-size: 25px;
+}
+
+.left {
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.main {
+    padding: 0px 60px 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+a {
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: rgb(12, 187, 223);
+    background: linear-gradient(90deg, rgb(57, 106, 212) 48%, rgb(115, 125, 177) 86%);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    transition: 0.9s;
+    font-family: "Poppins", sans-serif;
+}
+
+a:hover {
+    filter: brightness(1.4);
+
+}
+
+#ufo {
+    color: white;
+    font-size: 70px;
+    font-family: "Slackside One", cursive;
+    transition: 0.2s;
+
+}
+
+#ufo:hover {
+    filter: drop-shadow(10px 6px 4px #3434eb);
+}
+
+.line:after {
+    content: '';
+    width: 0px;
+    height: 3px;
+    display: block;
+    background: rgb(14, 53, 226);
+    transition: 200ms;
+}
+
+.line:hover:after {
+    width: 100%;
+}
+
+p {
+    font-size: 22px;
+    width: 100%;
+    color: white;
+    font-family: "Slackside One", cursive;
+
+}
+
+.basliq ul {
+    width: 700px;
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    transition: 5s;
+}
+
+
+.sekil {
+    width: 80px;
+    height: 80px;
+}
+
+.kart {
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-evenly;
+    align-items: end;
+    margin: 5px;
+
+    height: 180px;
+    width: 140px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 10px 2px rgba(176, 179, 185, 0.75);
+    transition: 0.4s;
+
+}
+
+.right {
+    padding-top: 50px;
+    width: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.second {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aciqlama {
+
+    padding: 6px;
+    width: 100%;
+    font-size: 8px;
+    font-family: "Poppins", sans-serif;
+}
+
+h5 {
+    position: absolute;
+    bottom: 45px;
+    left: 5px;
+    font-size: 11px;
+    color: white;
+    font-family: "Slackside One", cursive;
+}
+
+#b {
+    background-image: url(https://images.unsplash.com/photo-1598482327649-e8831e1505be?q=80&w=2042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%); */
+}
+
+#b:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 4px rgba(61, 111, 211, 0.75);
+}
+
+#i {
+    background-image: url(https://images.unsplash.com/photo-1582236829590-f8cb7de75229?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%); */
+}
+
+#i:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 4px rgba(61, 111, 211, 0.75);
+}
+
+
+#u {
+    background-image: url(https://images.unsplash.com/photo-1607335614551-3062bf90f30e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+        /* background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%); */
+}
+
+#u:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 4px rgba(61, 111, 211, 0.75);
+}
+
+
+#d {
+    background-image: url(https://images.unsplash.com/photo-1607335614785-e1436e859ebf?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%); */
+}
+
+#d:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 4px rgba(61, 111, 211, 0.75);
+}
