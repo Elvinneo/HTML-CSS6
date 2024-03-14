@@ -12,16 +12,14 @@
 
 }
 
-.sol {
+.sol img {
     width: 50px;
     height: 50px;
-    background-image: url(./Media/ufo.png);
-    background-size: cover;
     transition: 1s;
     filter: drop-shadow(3px 3px 5px #4444dd)
 }
 
-.sol:hover {
+.sol :hover {
     transform: rotateY(180deg);
     filter: drop-shadow(30px 20px 5px #4444dd)
 }
